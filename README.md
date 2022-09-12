@@ -1,2 +1,2 @@
 # Github-guru
-Contributer
+Owner
