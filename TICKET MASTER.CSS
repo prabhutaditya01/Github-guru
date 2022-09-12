@@ -1,0 +1,284 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:url("./raimond-klavins-xAqrT-279UA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode:darken ;
+    width:100%;
+    height:100%;
+    background-size: cover;
+    scroll-behavior: none;
+    overflow-x: hidden;
+    
+}
+.heading{
+    background :rgba(0, 0, 0, 0.747) url('./maximilian-manavi-huber-qbcAfJApLbE-unsplash.jpg') ;
+    height:544px;
+    width: 1127x; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:darken ;
+
+}
+.header{
+    display: flex;
+}
+#loginhead{
+    height: 50px;
+    width:133px;
+    margin:30px;
+    margin-left:494px;
+    border-radius: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: none;
+    color: aliceblue;
+    border:0px;
+    padding:0px;
+    text-align: center;
+    margin-top:10px;
+    margin-right:10px;
+    cursor: pointer;
+    }
+#userimg{
+    width:30px;
+    height:30px;
+    background-color: aliceblue;
+    border-radius:5.5px;
+    margin:auto;
+    margin-bottom:5px;
+}
+#imguser{
+    width:30px;
+    height:30px;
+}
+.head {
+    margin: 20px;
+     text-align: center;
+     background:linear-gradient(rgb(255, 213, 0),rgb(255, 115, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Comfortaa', cursive;
+    padding-top: 5px;
+    display:inline-flex;
+    padding-left: 500px;
+}
+#desc{
+    list-style: none;
+    display:flex;
+    padding : 20px;
+    width: 100%;
+}
+.list{
+    margin :auto;
+    padding :10px;
+    border:2px;
+    text-align: center;
+    background:linear-gradient(rgb(255, 213, 0),rgb(255, 115, 0));
+    border-radius: 10px;
+    border-style:solid ;
+    border-color: rgb(10, 10, 10);
+}
+.list:hover{
+     background: aqua;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.747);
+}
+a:hover{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 1);
+}
+h1{
+    margin:0px
+}
+#container{
+    height:100px; 
+    width: 100px;  
+}
+#forms{
+visibility: hidden;
+}
+#btn{
+    padding:10px;
+    border:3px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 40px;
+    cursor: pointer;
+    background:linear-gradient(rgb(243, 212, 54),rgb(255, 128, 0));
+    color: beige;
+    margin-left: 5px;
+    width:120px;
+    float: right;
+}
+#btn:hover{
+    background:linear-gradient(rgba(235, 99, 21, ),rgba(246,255,0));
+    color:rgb(43, 5, 79);
+}
+.bar{
+height: 34px;
+border-style: solid;
+border-color:rgb(0, 0, 0);
+border-radius: 20px;
+width: 250px;
+float: right;
+padding-top: 2px;
+}
+#second{
+    display:flex;
+}
+#search{
+    margin-top: 1.75px;
+    padding:11px;
+    background: white;
+    float:right;
+    border-radius:19.5px;
+}
+#dv{
+    height:42px;
+    width:100%;
+    padding:5px;
+    display:flex;
+    margin-left:23%;
+}
+#sbtn{
+    appearance: none;
+    border:0px;
+    padding:0px;
+    border-radius:22px;
+    height:0px;
+    width:1px;
+    cursor:pointer;
+}
+#logo{
+    height:75px;
+    border-radius:300px ;
+    width:75px;
+    margin-left: 10px;
+    margin-right: 50%;
+}
+.photos{
+height: 300px;
+width:500px;
+margin-top:10px;
+margin-left:100px;
+filter: brightness(100%);
+border-radius: 25px;
+border:3px;
+border-style: solid;
+border-color: rgba(251, 246, 236, 0.627);
+
+}
+.photos:hover{
+    filter: brightness(50%);
+    margin-top:8px;
+    margin-left:95px;
+    height: 310px;
+    width:510px;
+    transition-duration :355ms;
+
+}
+.container{
+     color:whitesmoke;
+     font-size: 20px;
+     height:350px;
+     width:50%;
+     margin: 0px;
+     display:inline-block;
+    
+
+}
+.container div{
+    margin-left: 227px;
+    width:fit-content;
+    
+}
+.upper{
+    display:flex;
+}
+.country{
+    padding-left: 75px;
+}
+#loginpopup{
+    width:455px;
+    height:407px;
+    background:rgba(255, 255, 255);
+    display:none;
+    text-align: center;
+    border-radius: 20px;
+    border:2px;
+    border-style: solid;
+    border-color: azure;
+    padding:20px;
+    z-index: 20px;
+    position:fixed;
+    top: 132px;
+    left:498px;
+}
+#loginform{
+    margin:10px;
+    padding:5px;
+}
+.input{
+    height:25px;
+    width:250px;
+    margin-left:10px;
+    margin-top: 5px;
+    margin-bottom:20px;
+    margin-right: 10px;
+    padding:5px;
+    background:rgba(255, 255, 255, 0.588);
+    border-radius: 20px;
+
+}
+#button{
+    height:30px;
+    width:250px;
+    margin-left:10px;
+    margin-top: 5px;
+    margin-bottom:20px;
+    margin-right: 10px;
+    padding:5px;
+    background:linear-gradient(rgba(235, 99, 21),rgba(246,255,0));
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+#popup{
+    height:fit-content;
+    width: fit-content;
+    padding: 10px;
+}
+.mail{
+    height:fit-content;
+    width: fit-content;
+    padding-left:80px ;
+    padding-top: 5px;
+}
+.passcode{
+    height:fit-content;
+    width: fit-content;
+    padding-left:80px ;
+    padding-top: 5px;
+}
+#close{
+    width:40px;
+    height:40px;
+    margin-left: 300px;
+
+}
+#cross{
+    display:flex
+}
+#redcross{
+    appearance: none;
+    border:0px;
+    padding:0px;
+    background: none;
+    cursor: pointer;
+}
+
+
